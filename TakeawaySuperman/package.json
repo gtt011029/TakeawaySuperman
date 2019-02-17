@@ -1,0 +1,24 @@
+{
+  "name": "TakeawaySuperman",
+  "version": "1.0.0",
+  "description": "My awe-inspiring Nuxt.js project",
+  "author": "gtt011029",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon server/index.js --watch server",
+    "build": "nuxt build",
+    "start": "cross-env NODE_ENV=production node server/index.js",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "cross-env": "^5.2.0",
+    "nuxt": "^2.4.0",
+    "express": "^4.16.4",
+    "element-ui": "^2.4.11"
+  },
+  "devDependencies": {
+    "node-sass": "^4.11.0",
+    "nodemon": "^1.18.9",
+    "sass-loader": "^7.1.0"
+  }
+}
