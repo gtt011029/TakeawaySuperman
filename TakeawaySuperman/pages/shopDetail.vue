@@ -1,6 +1,6 @@
 <template>
     <div>
-      商店详情页（杨宇诚）
+      详情页（韩文静）
     </div>
 </template>
 
